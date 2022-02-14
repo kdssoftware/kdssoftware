@@ -8,7 +8,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin"></link>
-      <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Gudea&family=Rajdhani:wght@300&display=swap" rel="stylesheet"></link>
+      {/* logo */}
+      <link rel="icon" href="/logo-sm2.svg" />
     </Head>
     <Component {...pageProps} />
   </>

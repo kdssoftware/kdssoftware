@@ -4,9 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize:{
+        '8xl':'6rem',
+        '9xl' : '7rem'
+      }
+    },
     fontFamily:{
-      special: ['"Rajdhani"', "sans-serif"]
+      sans: ['"Rajdhani"', "sans-serif"],
+      // special: ['"Gudea"',"sans-serif"]
     }
   },
   plugins: [],
