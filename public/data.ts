@@ -15,11 +15,11 @@ const skilldata : skill[][]= [
         },
         {
             "name": "TypeScript",
-            "percentage": 90
+            "percentage": 80
         },
         {
             "name": "Java",
-            "percentage": 80
+            "percentage": 75
         },
         {
             "name": "Python",
@@ -27,7 +27,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Bash",
-            "percentage": 60
+            "percentage": 50
         },
         {
             "name": "C#",
@@ -49,10 +49,10 @@ const skilldata : skill[][]= [
     [
         {
             "name": "HTML",
-            "percentage": 95
+            "percentage": 100
         },
         {
-            "name": "CSS5",
+            "name": "CSS",
             "percentage": 95
         },
         {
@@ -64,12 +64,12 @@ const skilldata : skill[][]= [
             "percentage": 90
         },
         {
-            "name": "Jquery",
-            "percentage": 90
+            "name": "Jquery.js",
+            "percentage": 70
         },
         {
-            "name": "Redux",
-            "percentage": 25
+            "name": "Redux.js",
+            "percentage": 30
         }
     ],
     [
@@ -80,10 +80,6 @@ const skilldata : skill[][]= [
         {
             "name": "ASP.net",
             "percentage": 60
-        },
-        {
-            "name": "Docker",
-            "percentage": 90
         },
         {
             "name": "MySQL",
@@ -102,18 +98,30 @@ const skilldata : skill[][]= [
             "percentage": 70
         },
         {
+            "name":"NGinx",
+            "percentage":60
+        },
+        {
             "name": "MS SQL",
             "percentage": 50
         },
         {
+            "name": "Apache",
+            "percentage":30
+        },
+        {
             "name": "SQLite",
-            "percentage": 30
-        }
+            "percentage": 10
+        },
     ],
     [
         {
             "name": "Git",
             "percentage": 95
+        },
+        {
+            "name": "Docker",
+            "percentage": 90
         },
         {
             "name": "Express.js",
@@ -146,14 +154,42 @@ const skilldata : skill[][]= [
     ]
 ]
 
-const skillTypes = [
+const skillTypes : string[]= [
     "Languages",
     "Frontend",
     "Backend",
     "Tools"
 ]
+interface navItemsI {
+    title: string
+    slogan: string
+    href: string
+}
 
+const navItems :navItemsI[] = [
+    {
+      title: 'Home',
+      slogan: 'From Dataqueries to Webdesign',
+      href: '/'
+    },
+    {
+      title: 'Skills',
+      slogan: 'My Skill set',
+      href: '/skills'
+    },
+    {
+      title: 'Projects',
+      slogan: 'A collection of my work',
+      href: '/projects'
+    },
+    {
+      title: 'Contact',
+      slogan: '“I have no special talent. I am only passionately curious.” - albert Einstein',
+      href: '/contact'
+    }
+  ]
 export {
     skilldata,
-    skillTypes
-} ;
+    skillTypes,
+    navItems
+};

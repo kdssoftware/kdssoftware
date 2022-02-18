@@ -1,10 +1,15 @@
 import { NextPage } from "next";
 
 import {skilldata,skillTypes} from "../public/data";
+import { useState } from "react";
 
 const Skills: NextPage = () => {
     //fetch /data.json
-    
+    let [delayOff,setDelayOff] = useState(false)
+
+    setInterval(()=>{
+        setDelayOff(true)
+    },100)
 
     return (
         <>
@@ -16,11 +21,11 @@ const Skills: NextPage = () => {
                             <div className="border-2 rounded-lg border-sky-800 w-px[90px] m-3"></div>
                             <div className="flex flex-col content-start px-8">
                                 {
-                                    skill.map((item,i) => (
+                                    skill.sort((a,b)=>b.percentage-a.percentage).map((item,i) => (
                                         <div key={index+"-"+i} className="flex flex-row pt-1 ">
                                             <span className="block w-2/5 font-bold text-lg">{item.name}</span>
-                                            <div className="w-3/5 bg-gray-500 rounded-full h-2.5 mt-2 ">
-                                                <div className="bg-lime-500 h-2.5 rounded-full duration-400 transition-all ease-in" style={{width: item.percentage+"%"}} ></div>
+                                            <div className="w-3/5 bg-gray-500 rounded-full h-2.5 mt-2  ">
+                                                <div className="transition-all duration-1000 bg-lime-500 h-2.5 rounded-full " style={{width: (delayOff?item.percentage:0)+"%"}} ></div>
                                             </div>
                                         </div>
                                     ))
