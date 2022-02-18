@@ -10,19 +10,21 @@ const Skills: NextPage = () => {
     let [isMobile,setMobile] = useState(false);
 
     //determine that its mobile viewpoint, if the max width is less than 768px
-    if (typeof window !== "undefined") {
-        useEffect(() => {
-        if(window?.innerWidth < 768){
-            setMobile(true)
-        }else{
-            setMobile(false)
-        }
-        },[window.innerWidth])
-    }
+
 
     setInterval(()=>{
         setDelayOff(true)
     },100)
+
+    useEffect(() => {
+        if(window?.innerWidth < 768){
+            if(!isMobile)
+                setMobile(true)
+        }else{
+            if(isMobile)
+            setMobile(false)
+        }
+    })
 
     return (
         <>

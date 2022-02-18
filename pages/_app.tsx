@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="crossorigin"></link>
       <link href="https://fonts.googleapis.com/css2?family=Gudea&family=Rajdhani:wght@300&display=swap" rel="stylesheet"></link>
       <meta charSet="utf-8" />
-      <meta content='text/html; charset=utf-8' http-equiv='Content-Type'></meta>
+      <meta content='text/html; charset=utf-8' httpEquiv='Content-Type'></meta>
       <meta httpEquiv='X-UA-Compatible' content='IE=edge'></meta>
       <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes"></meta>
       <link rel="icon" href="/logo-sm2.svg" />
