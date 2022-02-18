@@ -1,6 +1,7 @@
 import {Dispatch, SetStateAction, useState} from 'react'
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import { title } from 'process'
 
 interface Props {
     currentIndex: number;
@@ -13,19 +14,19 @@ const Navbar : NextPage<Props> = (props) =>{
     const navItems = [
         {
           title: 'Home',
-          href: '/',
+          slogan: 'From Dataqueries to Webdesign',
         },
         {
           title: 'Skills',
-          href: '/skills',
+          slogan: 'My Skill set',
         },
         {
           title: 'Projects',
-          href: '/projects',
+          slogan: 'A collection of my work',
         },
         {
           title: 'Contact',
-          href: '/contact',
+          slogan: '“I have no special talent. I am only passionately curious.” - albert Einstein',
         }
       ]
     const [hoveringNavNumber,setHoveringNavNumber] = useState<number>()
@@ -42,7 +43,7 @@ const Navbar : NextPage<Props> = (props) =>{
     <header className="w-full absolute left-0 top-0 p-6 lg:p-32">
         <div className="flex justify-between">
         <div>
-        <p className='mb-3 text-lg uppercase font-medium font-special'>From Dataqueries to webdesign...</p>
+        <p className='mb-3 text-lg uppercase font-medium font-special'>{navItems[currentIndex].slogan}</p>
         </div>
         <div>
         <ul className="flex">
@@ -52,7 +53,7 @@ const Navbar : NextPage<Props> = (props) =>{
                 <div className='cursor-pointer' onClick={()=>{changeContent(index)}} onMouseOver={()=> {animateNavBorder(index)}} onMouseLeave={()=> {animateNavBorder(-1)}}>
                     <div className="flex items-center justify-end">
                     <div className={"w-10 border-b border-solid border-white ease-in-out  transition  "+(currentIndex===index?"border-4 border-lime-500 border-10 rounded-lg antialiased ":hoveringNavNumber===index?"border-4 border-lime-500 border-10 rounded-lg animate-pulse antialiased":"")}></div>
-                        <h1 className="ml-3 text-3xl font-bold">{index+1}</h1>
+                        <h1 className="ml-3 text-3xl font-bold ">{index+1}</h1>
                     </div>
                     <div className="text-right">{item.title}</div>
                 </div>

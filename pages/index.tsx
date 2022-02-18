@@ -10,7 +10,6 @@ import Contact from '../components/contact'
 
 const Home: NextPage = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0)
-  useEffect(()=>{console.log(currentIndex)},[currentIndex])
   const showPage = (index :  number) => {
     switch (index) {
       case 0:
@@ -22,7 +21,7 @@ const Home: NextPage = () => {
       case 3:
         return <Contact />
       default:
-        return <>{index}</>
+        return <HomePage />
     }
   }
   return (
