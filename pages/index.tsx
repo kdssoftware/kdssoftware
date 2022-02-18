@@ -5,7 +5,7 @@ const Home: NextPage = () => {
         <>
             <section className="w-full md:w-9/12 xl:w-8/12">
                 <span className="font-bold font-special text-lg uppercase tracking-widest">My portfolio</span>
-                <h1 className="antialiased uppercase text-6xl lg:text-8xl font-bold font-special text-lime-500">
+                <h1 className="antialiased uppercase text-6xl lg:text-8xl font-bold font-special text-lime-500 animate-neon">
                     snakehead007
                 </h1>
                 <p className="font-bold uppercase text-base mb-5">

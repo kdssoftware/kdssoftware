@@ -128,6 +128,10 @@ const skilldata : skill[][]= [
             "percentage": 90
         },
         {
+            "name": "Puppeteer",
+            "percentage": 80
+        },
+        {
             "name": "NPM",
             "percentage": 90
         },
@@ -174,7 +178,7 @@ const navItems :navItemsI[] = [
     },
     {
       title: 'Skills',
-      slogan: 'My Skill set',
+      slogan: 'My Skill set, mostly self taught',
       href: '/skills'
     },
     {

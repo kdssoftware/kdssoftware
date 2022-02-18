@@ -18,16 +18,16 @@ const Navbar : NextPage<Props> = (props) =>{
     let currentIndex = navItems.findIndex(item => item.href === activeHref) 
     if(currentIndex === -1) currentIndex = 0
     return (
-    <header className="w-full absolute left-0 top-0 p-6 lg:p-32">
-        <div className="flex justify-between">
+    <header className="w-full absolute left-0 top-0 p-6 md:p-12 lg:p-16">
+        <div className="flex justify-center md:justify-between">
         <div>
-        <p className='mb-3 text-lg uppercase font-medium font-special'>{navItems[currentIndex].slogan}</p>
+        <p className='mb-3 text-lg uppercase font-medium font-special hidden md:block'>{navItems[currentIndex].slogan}</p>
         </div>
         <div>
         <ul className="flex">
         {
             navItems.map((item,index) => (
-            <li key={index} className={"ml-24 "+(hoveringNavNumber===index || currentIndex === index?"text-lime-500":"")} >
+            <li key={index} className={"ml-12 md:ml-24 "+(hoveringNavNumber===index || currentIndex === index?"text-lime-500":"")} >
                 <Link href={item.href}>
                   <a className='cursor-pointer' onMouseOver={()=> {animateNavBorder(index)}} onMouseLeave={()=> {animateNavBorder(-1)}}>
                       <div className="flex items-center justify-end">

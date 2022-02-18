@@ -8,6 +8,9 @@ module.exports = {
       fontSize:{
         '8xl':'6rem',
         '9xl' : '7rem'
+      },
+      animation:{
+        "neon":"flicker"
       }
     },
     fontFamily:{
