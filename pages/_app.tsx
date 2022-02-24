@@ -17,9 +17,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta content='text/html; charset=utf-8' httpEquiv='Content-Type'></meta>
       <meta httpEquiv='X-UA-Compatible' content='IE=edge'></meta>
       <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes"></meta>
-      <link rel="icon" href="/logo-sm2.svg" />
+      <link rel="icon" href="/kds.logo.svg" />
     </Head>
-    <main className="h-screen flex items-center px-6 md:px-12 lg:px-16 bg-sky-900 text-white relative" >
+    <main className="h-screen flex items-center px-6 md:px-12 lg:px-16 bg-sky-900 text-lime-50 relative" >
       <Navbar activeHref={activeHref}/>
       <Component {...pageProps} />
     </main>

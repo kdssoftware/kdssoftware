@@ -7,27 +7,27 @@ const skilldata : skill[][]= [
     [
         {
             "name": "JavaScript",
-            "percentage": 100
+            "percentage": 95
         },
         {
             "name": "PHP",
-            "percentage": 100
+            "percentage": 95
         },
         {
             "name": "TypeScript",
             "percentage": 80
         },
         {
-            "name": "Java",
-            "percentage": 75
-        },
-        {
             "name": "Python",
             "percentage": 70
         },
         {
+            "name": "Java",
+            "percentage": 60
+        },
+        {
             "name": "Bash",
-            "percentage": 50
+            "percentage": 55
         },
         {
             "name": "C#",
@@ -56,16 +56,16 @@ const skilldata : skill[][]= [
             "percentage": 95
         },
         {
+            "name": "Pug",
+            "percentage": 95
+        },
+        {
             "name": "React.js",
-            "percentage": 90
+            "percentage": 85
         },
         {
             "name": "Next.js",
-            "percentage": 90
-        },
-        {
-            "name": "Jquery.js",
-            "percentage": 70
+            "percentage": 85
         },
         {
             "name": "Redux.js",
@@ -75,7 +75,7 @@ const skilldata : skill[][]= [
     [
         {
             "name": "Node.js",
-            "percentage": 100
+            "percentage": 90
         },
         {
             "name": "ASP.net",
@@ -192,8 +192,80 @@ const navItems :navItemsI[] = [
       href: '/contact'
     }
   ]
+
+  interface projectI {
+    title: string
+    description: string
+    "technologies":string[]
+    link?: string
+    github?: string
+  }
+const projects: projectI[] = [
+    {
+        "title":"Fyrebrick",
+        "description":"Full stack (MEPN) For order picking and online inventory (invite only)",
+        "technologies":[
+            "Docker",
+            "Node.js",
+            "Express.js",
+            "Pug",
+            "JavaScript",
+            "Python",
+            "mongoDB",
+        ],
+        "github":"https://github.com/fyrebrick",
+        "link":"https://my.fyrebrick.com",
+    },
+    {
+        "title":"Picturehouse",
+        "description":"Online galleries to post pictures and give access using admin tools (currently down)",
+        "technologies":[
+            "Docker",
+            "Haproxy",
+            "Node.js",
+            "Typescript",
+            "Next.js",
+            "React",
+            "Express.js",
+            "MongoDB",
+        ],
+        "link":"https://picturehouse.be",
+        "github":"https://github.com/snakehead007/picturehouse",
+    },
+    {
+        "title":"FC Binkom site",
+        "description":"Final project Graduaat (19/20) education.",
+        "technologies":[
+            "Docker",
+            "Next.js",
+            "React.js",
+            "Redux.js",
+            "TypeScript",
+            "Java",
+            "Spring boot"
+        ],
+        "link":"https://www.fcbinkom.be",
+    },
+    {
+        "title":"Invoice administration",
+        "description":"Keep contacts and invoices on track. Generating custom invoices.",
+        "technologies":[
+            "Docker",
+            "Node.js",
+            "Express.js",
+            "Pug",
+            "JavaScript",
+            "jsPDF",
+            "MongoDB"   
+        ],
+        "github":"https://github.com/snakehead007/invoice-administration"
+    }
+]
+
+
 export {
     skilldata,
     skillTypes,
-    navItems
+    navItems,
+    projects
 };
