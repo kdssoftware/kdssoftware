@@ -259,6 +259,16 @@ const projects: projectI[] = [
             "MongoDB"   
         ],
         "github":"https://github.com/snakehead007/invoice-administration"
+    },
+    {
+        "title":"Boardgame",
+        "description":"Dutch quiz question in a form of cards.",
+        "technologies":[
+            "Vercel",
+            "Next.js"
+        ],
+        "github":"https://github.com/snakehead007/boardgame",
+        "link":"https://boardgame.kdssoftware.com"
     }
 ]
 
