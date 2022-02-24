@@ -23,7 +23,7 @@ const Projects : NextPage= () => {
                     {
                         project.github? (
                             <a href={project.github} className="px-2">
-                                <img className="w-[25px]" src="/github.svg" alt={project.github} />
+                                <img className="w-[25px]" src="/icon/github.svg" alt={project.github} />
                             </a>
                         ):""
                     }
@@ -31,7 +31,7 @@ const Projects : NextPage= () => {
                         
                         project.link? (
                             <a href={project.link} className="px-2">
-                                <img className="w-[25px]" src="/link.svg" alt={project.link} />
+                                <img className="w-[25px]" src="/icon/link.svg" alt={project.link} />
                             </a>
                         ):""
                     }

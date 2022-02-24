@@ -14,8 +14,8 @@ const Home: NextPage = () => {
                     KDS SOFTWARE
                 </h1>
                 <p className="font-bold uppercase mb-5">
-                    Full-stack engineer for <span className='text-lg text-sky-400'>
-                        <a href='https://www.guardsquare.com/' rel='noopener noreferrer'>Guardsquare</a>
+                    Full-stack engineer <span className='text-lg text-sky-400'>
+                        <a href='https://www.guardsquare.com/' rel='noopener noreferrer'>@Guardsquare</a>
                     </span>
                 </p>
                 <p className='font-thin'>

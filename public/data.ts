@@ -272,10 +272,44 @@ const projects: projectI[] = [
     }
 ]
 
+interface contactI {
+    icon: string
+    name: string
+    link: string
+}
+const contacts : contactI[] = [
+    {
+        "icon": "mail",
+        "name": "E-mail",
+        "link":"mailto:karel@karel.be"
+    },
+    {
+        "icon":"github",
+        "name":"GitHub",
+        "link":"https://github.com/kdssoftware"
+    },
+    {
+        "icon":"linkedin",
+        "name":"LinkedIn",
+        "link":"https://www.linkedin.com/in/karel-de-smet-7a18099/"
+    },
+    {
+        "icon":"twitter",
+        "name":"Twitter",
+        "link":"https://twitter.com/kdssoftware"
+    },
+    {
+        "icon":"dev",
+        "name":"Dev.to",
+        "link":"https://dev.to/kdssoftware"
+    }
+]
+
 
 export {
     skilldata,
     skillTypes,
     navItems,
-    projects
+    projects,
+    contacts
 };
