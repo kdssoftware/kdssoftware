@@ -28,7 +28,7 @@ const Skills: NextPage = () => {
 
     return (
         <>
-            <section className="w-screen grid grid-flow-row auto-rows-max md:grid-flow-col md:auto-rows-max ">
+            <section className="grid w-screen grid-flow-row auto-rows-max md:grid-flow-col md:auto-rows-max ">
                 {
                     skilldata.map((skill, index) => (
                         <div key={index} className={"w-full pb-4 "+(isMobile?"cursor-pointer":"")} onClick={()=>{
@@ -36,15 +36,15 @@ const Skills: NextPage = () => {
                                 setMobileCurrentShowing(index)
                             }
                         }} >
-                            <h2 className="text-2xl text-center font-bold text-amber-300 ">{skillTypes[index]}:</h2>
-                            <div className="border-2 rounded-lg border-amber-700 w-px[90px] m-3"></div>
-                            <div className="flex flex-col content-start px-8 w-full">
+                            <h2 className="text-2xl font-bold text-center text-red-600 ">{skillTypes[index]}:</h2>
+                            <div className="border-2 rounded-lg border-red-50 w-px[90px] m-3"></div>
+                            <div className="flex flex-col content-start w-full px-8">
                                 {  
                                     skill.sort((a,b)=>b.percentage-a.percentage).map((item,i) => (
                                         <div key={index+"-"+i} className={"flex flex-col xl:flex-row pt-1 "+(isMobile && mobileCurrentShowing!=index ? "hidden" : "")}>
-                                            <span className="block w-full xl:w-2/5 font-bold text-lg">{item.name}</span>
+                                            <span className="block w-full text-lg font-bold xl:w-2/5">{item.name}</span>
                                             <div className="w-full xl:w-3/5 bg-gray-500 rounded-full h-2.5 mt-2  ">
-                                                <div className="transition-all duration-1000 bg-amber-300 h-2.5 rounded-full " style={{width: (delayOff?item.percentage:0)+"%"}} ></div>
+                                                <div className="transition-all duration-1000 bg-red-700 h-2.5 rounded-full " style={{width: (delayOff?item.percentage:0)+"%"}} ></div>
                                             </div>
                                         </div>
                                     ))
