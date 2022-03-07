@@ -36,15 +36,15 @@ const Skills: NextPage = () => {
                                 setMobileCurrentShowing(index)
                             }
                         }} >
-                            <h2 className="text-2xl font-bold text-center text-red-600 ">{skillTypes[index]}:</h2>
-                            <div className="border-2 rounded-lg border-red-50 w-px[90px] m-3"></div>
+                            <h2 className="text-2xl font-bold text-center text-yellow-600 ">{skillTypes[index]}:</h2>
+                            <div className="border-2 rounded-lg border-yellow-50 w-px[90px] m-3"></div>
                             <div className="flex flex-col content-start w-full px-8">
                                 {  
                                     skill.sort((a,b)=>b.percentage-a.percentage).map((item,i) => (
                                         <div key={index+"-"+i} className={"flex flex-col xl:flex-row pt-1 "+(isMobile && mobileCurrentShowing!=index ? "hidden" : "")}>
                                             <span className="block w-full text-lg font-bold xl:w-2/5">{item.name}</span>
                                             <div className="w-full xl:w-3/5 bg-gray-500 rounded-full h-2.5 mt-2  ">
-                                                <div className="transition-all duration-1000 bg-red-700 h-2.5 rounded-full " style={{width: (delayOff?item.percentage:0)+"%"}} ></div>
+                                                <div className="transition-all duration-1000 bg-yellow-700 h-2.5 rounded-full " style={{width: (delayOff?item.percentage:0)+"%"}} ></div>
                                             </div>
                                         </div>
                                     ))
