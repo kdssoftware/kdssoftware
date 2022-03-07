@@ -5,6 +5,8 @@
  My portofolio https://kdssoftware.com
  ***
  [![#standWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/e370cbde3369f18314456290ea50e6819f0f01f0/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine)
+
+ [Help DDOS RUS & BLR](https://www.kitpes.com.ua/)
 <div align="center">
  </div>
  <h4>My technologies 🤖</h4>
