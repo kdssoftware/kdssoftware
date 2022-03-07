@@ -4,6 +4,7 @@
  📋 Im a Full Stack Developer working with <b>Javascript</b> and <b>PHP</b> for the [Catholic University of Leuven](https://kuleuven.be/english)<br>
  My portofolio https://kdssoftware.com
  ***
+ ![](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/e370cbde3369f18314456290ea50e6819f0f01f0/badges/StandWithUkraine.svg)
 <div align="center">
  </div>
  <h4>My technologies 🤖</h4>
