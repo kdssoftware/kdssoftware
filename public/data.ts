@@ -202,6 +202,19 @@ const navItems :navItemsI[] = [
   }
 const projects: projectI[] = [
     {
+        "title":"Web Game",
+        "description":"Online multiplayer game as a hobby project",
+        "technologies":[
+            "Next.js 12",
+            "Redux.js",
+            "FaunaDB",
+            "Tailwind CSS",
+            "Jest",
+            "Cypress",
+        ],
+        "github":"https://github.com/kdssoftware/web-maffia-game"
+    },
+    {
         "title":"Fyrebrick",
         "description":"Full stack (MEPN) For order picking and online inventory (invite only)",
         "technologies":[

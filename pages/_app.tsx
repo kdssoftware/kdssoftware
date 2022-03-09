@@ -4,10 +4,33 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Navbar from '../components/navbar'
 import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter()
   const activeHref = router.pathname;
+
+  //useEffect onkeyup to change activeHref
+  useEffect(() => {
+    const handleKeyUp = (e: KeyboardEvent) => {
+      switch(e.key){
+        case "1":
+          router.push("/");break;
+        case "2":
+          router.push("/skills");break;
+        case "3":
+          router.push("/projects");break;
+        case "4":
+          router.push("/contact");break;
+      }
+    }
+    window.addEventListener('keyup', handleKeyUp)
+    return () => {
+      window.removeEventListener('keyup', handleKeyUp)
+    }
+  }, [])
+  
+
   return <>
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
@@ -19,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <meta name='viewport' content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes"></meta>
       <link rel="icon" href="/kds.logo.svg" />
     </Head>
-    <main className="h-screen flex items-center px-6 md:px-12 lg:px-16 bg-sky-900 text-lime-50 relative" >
+    <main className="h-screen flex items-center px-6 md:px-12 lg:px-16 bg-sky-900 text-lime-50 relative overflow-x-hidden" >
       <Navbar activeHref={activeHref}/>
       <Component {...pageProps} />
     </main>
