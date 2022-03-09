@@ -26,7 +26,7 @@ const skilldata : skill[][]= [
             "percentage": 60
         },
         {
-            "name": "Bash",
+            "name": "UNIX shell",
             "percentage": 55
         },
         {
@@ -35,7 +35,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Golang",
-            "percentage": 40
+            "percentage": 35
         },
         {
             "name": "C++",
@@ -70,7 +70,15 @@ const skilldata : skill[][]= [
         {
             "name": "Redux.js",
             "percentage": 30
-        }
+        },
+        {
+            "name": "TailwindCSS",
+            "percentage": 80
+        },
+        {
+            "name": "Cypress",
+            "percentage": 5
+        },
     ],
     [
         {
@@ -98,6 +106,10 @@ const skilldata : skill[][]= [
             "percentage": 70
         },
         {
+            "name": "FaunaDB",
+            "percentage": 50
+        },
+        {
             "name":"NGinx",
             "percentage":60
         },
@@ -112,6 +124,10 @@ const skilldata : skill[][]= [
         {
             "name": "SQLite",
             "percentage": 10
+        },
+        {
+            "name": "Firebase",
+            "percentage": 5
         },
     ],
     [
@@ -129,7 +145,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Puppeteer",
-            "percentage": 80
+            "percentage": 60
         },
         {
             "name": "NPM",
@@ -153,6 +169,10 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Google cloud",
+            "percentage": 20
+        },
+        {
+            "name": "Jest",
             "percentage": 20
         }
     ]
