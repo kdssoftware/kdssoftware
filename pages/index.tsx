@@ -14,14 +14,14 @@ const Home: NextPage = () => {
                     KDS SOFTWARE
                 </h1>
                 <p className="mb-5 font-bold uppercase">
-                    {/* Software Engineer 
+                    Software Engineer 
                     <span className='text-lg text-sky-400'>
-                        <a href='https://www.guardsquare.com/' rel='noopener noreferrer'>@Guardsquare</a>
-                    </span> */}
-                    Full-stack developer
+                        &nbsp;<a href='https://www.guardsquare.com/' rel='noopener noreferrer'>@Guardsquare</a>
+                    </span>
+                    {/* Full-stack developer
                     <span className='text-lg text-sky-400'>
                         &nbsp;<a href='https://ilt.kuleuven.be/' rel='noopener noreferrer'>@kuleuven (ILT)</a>
-                    </span>
+                    </span> */}
                 </p>
                 <p className='font-thin'>
                     Creating software since 2015.<br />

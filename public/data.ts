@@ -15,19 +15,19 @@ const skilldata : skill[][]= [
         },
         {
             "name": "TypeScript",
-            "percentage": 80
+            "percentage": 90
         },
         {
             "name": "Python",
-            "percentage": 70
+            "percentage": 50
         },
         {
             "name": "Java",
-            "percentage": 60
+            "percentage": 50
         },
         {
             "name": "UNIX shell",
-            "percentage": 55
+            "percentage": 70
         },
         {
             "name": "C#",
@@ -35,7 +35,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Golang",
-            "percentage": 35
+            "percentage": 60
         },
         {
             "name": "C++",
@@ -57,15 +57,15 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Pug",
-            "percentage": 95
+            "percentage": 75
         },
         {
             "name": "React.js",
-            "percentage": 85
+            "percentage": 90
         },
         {
             "name": "Next.js",
-            "percentage": 85
+            "percentage": 80
         },
         {
             "name": "Redux.js",
@@ -73,7 +73,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "TailwindCSS",
-            "percentage": 80
+            "percentage": 76
         },
         {
             "name": "Cypress",
@@ -133,22 +133,22 @@ const skilldata : skill[][]= [
     [
         {
             "name": "Git",
-            "percentage": 95
+            "percentage": 85
         },
         {
-            "name": "Docker",
-            "percentage": 90
+            "name": "Docker (-compose)",
+            "percentage": 80
         },
         {
             "name": "Express.js",
-            "percentage": 90
+            "percentage": 80
         },
         {
             "name": "Puppeteer",
             "percentage": 60
         },
         {
-            "name": "NPM",
+            "name": "NPM / Yarn",
             "percentage": 90
         },
         {
@@ -161,7 +161,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "CD\\CI",
-            "percentage": 80
+            "percentage": 30
         },
         {
             "name": "Active Directory",
@@ -169,7 +169,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Google cloud",
-            "percentage": 20
+            "percentage": 25
         },
         {
             "name": "Jest",
