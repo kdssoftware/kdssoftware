@@ -16,6 +16,7 @@
 ![Next JS](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404d59.svg?logo=express&logoColor=white)
 ![Javascript](https://img.shields.io/badge/Javascript-f7e018.svg?logo=javascript&logoColor=black)
+![Typescript](https://img.shields.io/badge/Typescript-2f72bc.svg?logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-7175aa.svg?logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-2a65a2.svg?logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005c83.svg?logo=mysql&logoColor=white)
@@ -23,6 +24,7 @@
 ![Sass](https://img.shields.io/badge/SCSS-c36192.svg?logo=sass&logoColor=white)
 ![Typescript](https://img.shields.io/badge/Typescript-2f72bc.svg?logo=typescript&logoColor=white)
 ![Golang](https://img.shields.io/badge/Go-86d5e3.svg?logo=go&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-238fe0.svg?logo=docker&logoColor=white)
  ***
  <div align="center">
  <h4>My stats 📊</h4>
