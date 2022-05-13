@@ -1,9 +1,9 @@
 <div align="center">
 <h1>Welcome, </h1>
 
- 📋 Im a Software Engineer working with <b>Typescript</b> and <b>Go</b> for [@Guardsquare](https://guardsquare.com)<br>
- In my free time, I am a full-stack fanatic. <br>
- My portfolio https://kdssoftware.com
+ 📋 Im a software engineer [@Guardsquare](https://guardsquare.com) working with <b>Typescript</b> and <b>Go</b><br>
+ 🌳 In my free time, I create full-stack apps and maintain my Plex servers. <br>
+ 🌐 My portfolio https://kdssoftware.com
  ***
  [![#standWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/e370cbde3369f18314456290ea50e6819f0f01f0/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine)
 
