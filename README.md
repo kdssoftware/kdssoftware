@@ -5,6 +5,8 @@
  🌳 In my free time, I create full-stack apps and maintain my Plex servers. <br>
  🌐 My portfolio https://kdssoftware.com
  ***
+ 
+ [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
  [![#standWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/e370cbde3369f18314456290ea50e6819f0f01f0/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine)
 
 <div align="center">
@@ -35,8 +37,8 @@
 </div>
 <div align="center">
 
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&layout=compact&theme=tokyonight" height="150px"/>
- <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&theme=tokyonight&hide=stars_private=true" height="150px" />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&theme=dracula&langs_count=8&hide=css,html,pug" height="200px"/>
+ <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&theme=dracula&hide=stars_private=true" height="200px" />
  <br />
  &nbsp;
  <br />
