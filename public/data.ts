@@ -289,7 +289,7 @@ const projects: projectI[] = [
             "Pug",
             "JavaScript",
             "jsPDF",
-            "MongoDB"   
+            "MongoDB"
         ],
         "github":"https://github.com/snakehead007/invoice-administration"
     },
