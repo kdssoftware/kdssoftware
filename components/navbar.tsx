@@ -21,14 +21,14 @@ const Navbar: NextPage<Props> = (props) => {
   );
   if (currentIndex === -1) currentIndex = 0;
   return (
-    <header className="w-full fixed left-0 top-0 pb-2 pt-6 px-6 md:pt-12 md:px-12 lg:pt-16 lg:px-16 bg-sky-900 z-10">
+    <header className="w-full fixed left-0 top-0 pb-2 pt-6 px-6 md:pt-12 md:px-12 lg:pt-16 lg:px-16 z-10">
       <div className="flex  justify-center md:justify-between flex-row md:flex-col lg:flex-row">
         <div>
           <p className="mb-3 text-lg uppercase font-medium font-special hidden md:block">
             {navItems[currentIndex].slogan}
           </p>
         </div>
-        <div>
+        <nav>
           <ul className="flex justify-start md:justify-end">
             {navItems.map((item, index) => (
               <li
@@ -37,7 +37,7 @@ const Navbar: NextPage<Props> = (props) => {
                   ' mx-2 sm:ml-12 md:ml-24 ' +
                   (hoveringNavNumber === index ||
                   currentIndex === index
-                    ? 'text-yellow-200'
+                    ? 'text-dracula-green'
                     : '')
                 }
               >
@@ -56,9 +56,9 @@ const Navbar: NextPage<Props> = (props) => {
                         className={
                           'w-10 md:w-12 border-solid border-white ease-in-out border-4 md:border-2 rounded-lg ' +
                           (currentIndex === index
-                            ? 'border-4 border-yellow-500 border-10 rounded-lg antialiased '
+                            ? 'border-4 border-dracula-green border-10 rounded-lg antialiased '
                             : hoveringNavNumber === index
-                            ? 'border-4 border-yellow-500 border-10 rounded-lg animate-pulse antialiased'
+                            ? 'border-4 border-dracula-green border-10 rounded-lg animate-pulse antialiased'
                             : '')
                         }
                       ></div>
@@ -74,7 +74,7 @@ const Navbar: NextPage<Props> = (props) => {
               </li>
             ))}
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
   );

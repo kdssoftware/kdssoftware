@@ -14,11 +14,11 @@ const Skills: NextPage = () => {
   }, 100);
 
   return (
-    <>
-      <section className="overflow-y-auto  fixed top-32 left-0  grid w-full  grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
+    <div className="w-full h-full flex flex-col justify-center">
+      <section className="overflow-y-scroll grid relative grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
         {skilldata.map((skill, index) => (
           <div key={index} className={' pb-4 '}>
-            <h2 className="text-2xl font-extrabold text-center text-yellow-500 ">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-center text-dracula-green ">
               {skillTypes[index]}:
             </h2>
             <div className="border-2 rounded-lg border-yellow-50 w-px[90px] m-3"></div>
@@ -33,9 +33,9 @@ const Skills: NextPage = () => {
                     <span className="block w-full text-lg font-bold xl:w-2/5">
                       {item.name}
                     </span>
-                    <div className="w-full xl:w-3/5 bg-gray-500 rounded-full h-2.5 mt-2  ">
+                    <div className="w-full xl:w-3/5 bg-dracula-comment rounded-full h-2.5 mt-2  ">
                       <div
-                        className="transition-all duration-1000 bg-yellow-500 h-2.5 rounded-full "
+                        className="transition-all duration-1000 bg-dracula-green h-2.5 rounded-full "
                         style={{
                           width:
                             (delayOff ? item.percentage : 0) + '%',
@@ -48,7 +48,7 @@ const Skills: NextPage = () => {
           </div>
         ))}
       </section>
-    </>
+    </div>
   );
 };
 export default Skills;

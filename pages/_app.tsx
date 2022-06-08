@@ -62,9 +62,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         ></meta>
         <link rel="icon" href="/kds.logo.svg" />
       </Head>
-      <main className="flex h-screen absolute top-0 w-full items-center   bg-sky-900 text-lime-50">
+
+      <main className="flex h-screen relative top-0 w-full items-center   bg-dracula-background text-lime-50">
         <Navbar activeHref={activeHref} />
-        <div className="relative w-full mx-5 md:mx-6 lg:mx-12">
+        <div className="absolute w-full top-36 bottom-0 px-5 md:px-6 lg:px-12 overflow-y-scroll">
           <Component {...pageProps} />
         </div>
       </main>
