@@ -50,6 +50,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           href="https://fonts.googleapis.com/css2?family=Gudea&family=Rajdhani:wght@300&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Monda:wght@400;700&display=swap"
+          rel="stylesheet"
+        ></link>
         <meta charSet="utf-8" />
         <meta
           content="text/html; charset=utf-8"
@@ -63,9 +67,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/kds.logo.svg" />
       </Head>
 
-      <main className="flex h-screen relative top-0 w-full items-center   bg-dracula-background text-lime-50">
+      <main className="flex h-screen relative top-0 w-full font-fire items-center    bg-dracula-extra text-dracula-foreground">
         <Navbar activeHref={activeHref} />
-        <div className="absolute w-full top-36 bottom-0 px-5 md:px-6 lg:px-12 overflow-y-scroll">
+        <div className="absolute w-full top-36 bottom-0 px-5 md:px-6 lg:px-12 ">
           <Component {...pageProps} />
         </div>
       </main>

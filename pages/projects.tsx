@@ -10,50 +10,63 @@ const Projects: NextPage = () => {
     >
       {projects.map((project) => (
         <div
-          className="relative grid grid-flow-row grid-rows-3 p-3 rounded-lg bg-dracula-comment opacity-90 "
+          className="rounded-lg w-full h-full p-1
+          opacity-90 hover:opacity-100
+          bg-gradient-to-br from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark 
+          transition duration-300 hover:scale-105 shadow-md shadow-dracula-background
+          "
           key={project.title}
         >
-          <h2 className="pb-4 text-2xl font-extrabold text-center uppercase text-sky-50">
-            {project.title}
-          </h2>
-          {/* description */}
-          <div className="flex justify-start text-lg capitalize flex-row row-span-1">
-            {project.description}
-          </div>
-          {/* technologies */}
-          <div className="flex flex-wrap justify-center py-2 text-lg">
-            {project.technologies.map((tech) => (
-              <span
-                className="px-2 mx-1 mt-1 rounded-full max-h-7 bg-dracula-purple text-dracula-foreground"
-                key={tech}
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-          <div className="absolute flex justify-end py-2 my-1">
-            {project.github ? (
-              <a href={project.github} className="px-2">
-                <img
-                  className="w-[25px] hover:scale-110 transition-transform ease-in-out duration-200 "
-                  src="/icon/github.svg"
-                  alt={project.github}
-                />
-              </a>
-            ) : (
-              ''
-            )}
-            {project.link ? (
-              <a href={project.link} className="px-2">
-                <img
-                  className="w-[25px] hover:scale-110 transition-transform ease-in-out duration-200"
-                  src="/icon/link.svg"
-                  alt={project.link}
-                />
-              </a>
-            ) : (
-              ''
-            )}
+          <div className="flex flex-col px-4 pt-4 pb-2 rounded-lg w-full h-full bg-dracula-purple-dark ">
+            <div className="flex justify-start p-2 w-full">
+              {project.github ? (
+                <a href={project.github} className="px-2">
+                  <div
+                    className="bg-gradient-to-br w-6 h-6
+                    hover:scale-110 transition-transform ease-in-out duration-200
+                    from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark"
+                    style={{
+                      maskImage: "url('/icon/github.svg')",
+                      WebkitMaskImage: "url('/icon/github.svg')",
+                      maskRepeat: 'no-repeat',
+                      WebkitMaskRepeat: 'no-repeat',
+                      maskSize: '1.5rem',
+                      WebkitMaskSize: '1.5rem',
+                    }}
+                  ></div>
+                </a>
+              ) : (
+                ''
+              )}
+              {project.link ? (
+                <a href={project.link} className="px-2">
+                  <div
+                    className="bg-gradient-to-br w-6 h-6
+                    hover:scale-110 transition-transform ease-in-out duration-200
+                    from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark"
+                    style={{
+                      maskImage: "url('/icon/link.svg')",
+                      WebkitMaskImage: "url('/icon/link.svg')",
+                      maskRepeat: 'no-repeat',
+                      WebkitMaskRepeat: 'no-repeat',
+                      maskSize: '1.5rem',
+                      WebkitMaskSize: '1.5rem',
+                    }}
+                  ></div>
+                </a>
+              ) : (
+                ''
+              )}
+            </div>
+            <h2
+              className="text-2xl font-extrabold text-center py-2
+            text-transparent bg-clip-text bg-gradient-to-r from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark "
+            >
+              {project.title}
+            </h2>
+            <div className="flex justify-start pt-3 pb-6 px-2 text-dracula-foreground text-lg capitalize flex-row row-span-1">
+              {project.description}
+            </div>
           </div>
         </div>
       ))}

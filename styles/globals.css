@@ -61,12 +61,12 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #936016;
+  background: #ff79c6;
   border-radius: 100vh;
   border: 3px solid #282a36;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #936016;
+  background: #ff79c6;
 }

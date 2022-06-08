@@ -21,10 +21,14 @@ const Navbar: NextPage<Props> = (props) => {
   );
   if (currentIndex === -1) currentIndex = 0;
   return (
-    <header className="w-full fixed left-0 top-0 pb-2 pt-6 px-6 md:pt-12 md:px-12 lg:pt-16 lg:px-16 z-10">
-      <div className="flex  justify-center md:justify-between flex-row md:flex-col lg:flex-row">
-        <div>
-          <p className="mb-3 text-lg uppercase font-medium font-special hidden md:block">
+    <header className="w-full fixed left-0 top-0 pb-2  z-10">
+      <div
+        className="flex  justify-center md:justify-between
+      shadow-md shadow-dracula-background
+      flex-row md:flex-col p-4 bg-dracula-background lg:flex-row"
+      >
+        <div className="flex justify-center flex-col">
+          <p className="text-xl uppercase font-bold  hidden md:block">
             {navItems[currentIndex].slogan}
           </p>
         </div>
@@ -58,15 +62,15 @@ const Navbar: NextPage<Props> = (props) => {
                           (currentIndex === index
                             ? 'border-4 border-dracula-green border-10 rounded-lg antialiased '
                             : hoveringNavNumber === index
-                            ? 'border-4 border-dracula-green border-10 rounded-lg animate-pulse antialiased'
+                            ? 'border-4 border-dracula-green opacity-80 border-10 rounded-lg animate-pulse antialiased'
                             : '')
                         }
                       ></div>
-                      <h1 className="ml-3 text-3xl font-bold hidden sm:block ">
+                      <h1 className="ml-3 text-3xl hidden sm:block ">
                         {index + 1}
                       </h1>
                     </div>
-                    <div className="text-right text-2xl md:text-base">
+                    <div className="text-right text-2xl md:text-base pt-4 md:pt-0">
                       {item.title}
                     </div>
                   </a>
