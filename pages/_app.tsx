@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <main className="flex h-screen relative top-0 w-full font-fire items-center    bg-dracula-extra text-dracula-foreground">
         <Navbar activeHref={activeHref} />
-        <div className="absolute w-full top-36 bottom-0 px-5 md:px-6 lg:px-12 ">
+        <div className="absolute w-full top-28 bottom-0 px-5 md:px-6 lg:px-12 ">
           <Component {...pageProps} />
         </div>
       </main>

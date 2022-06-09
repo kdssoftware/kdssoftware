@@ -5,7 +5,7 @@ const Contact: NextPage = () => {
   //view contact informations from contacts
   return (
     <div className="w-full h-full flex flex-col justify-center">
-      <div className="grid w-full grid-flow-row gap-4 md:w-1/2 lg:w-full lg:grid-flow-col justify-center">
+      <div className="grid w-full grid-flow-row gap-4 lg:w-full lg:grid-flow-col justify-center">
         {contacts.map((contact) => (
           <a
             href={contact.link}

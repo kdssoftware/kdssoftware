@@ -14,14 +14,14 @@ const Skills: NextPage = () => {
   }, 100);
 
   return (
-    <div className=" flex flex-col justify-center">
+    <div className=" flex flex-col mt-10 justify-center">
       <section className="w-full h-full mb-8 grid grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
         {skilldata.map((skill, index) => (
           <div key={index} className={' pb-4 '}>
             <h2 className="text-2xl md:text-3xl font-extrabold text-center text-dracula-pink ">
               {skillTypes[index]}:
             </h2>
-            <div className="border-2 rounded-lg border-yellow-50 w-px[90px] m-3"></div>
+            <div className="border-2 rounded-lg border-dracula-comment w-px[90px] m-3"></div>
             <div className="flex flex-col content-start w-full px-8">
               {skill
                 .sort((a, b) => b.percentage - a.percentage)
@@ -30,10 +30,10 @@ const Skills: NextPage = () => {
                     key={index + '-' + i}
                     className={'flex flex-col xl:flex-row pt-1 '}
                   >
-                    <span className="block w-full text-lg font-bold xl:w-2/5">
+                    <span className="block w-full text-lg font-thin">
                       {item.name}
                     </span>
-                    <div className="w-full xl:w-3/5 bg-dracula-background rounded-full h-2.5 mt-2  ">
+                    <div className="w-full bg-dracula-background rounded-full h-2.5 mt-2  ">
                       <div
                         className="transition-all duration-1000 bg-gradient-to-r  from-dracula-green-light via-dracula-green to-dracula-green-dark h-2.5 rounded-full "
                         style={{

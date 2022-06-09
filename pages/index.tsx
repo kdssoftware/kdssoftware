@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   }, 150);
   return (
     <>
-      <section className="w-full h-full flex justify-center flex-col md:w-9/12 xl:w-8/12">
+      <section className="w-full h-full flex justify-center flex-col pb-20">
         <span className="text-lg font-semibold tracking-widest uppercase ">
           My portfolio
         </span>
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         </h1>
         <p className="mb-5 uppercase">
           Software Engineer
-          <span className="text-lg  text-dracula-pink">
+          <span className="text-lg  text-dracula-green-light">
             &nbsp;@
             <a
               className="font-monda "
@@ -46,11 +46,13 @@ const Home: NextPage = () => {
           on the way.
         </p>
       </section>
-      <footer className="fixed bottom-0 right-0 p-6 text-lg lg:p-32">
+      <footer className="fixed bottom-0 right-0 p-6 text-lg lg:p-16">
         <p className="mb-1 font-thin">Author</p>
         <p>
-          <span className="text-2xl font-bold text-dracula-green font-">
-            <a href="//karel.be">Karel De Smet</a>
+          <span className="text-2xl font-bold text-dracula-green-dark font-">
+            <a href="https://kdssoftware.com/contact">
+              Karel De Smet
+            </a>
           </span>
         </p>
       </footer>
