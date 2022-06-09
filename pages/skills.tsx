@@ -14,8 +14,8 @@ const Skills: NextPage = () => {
   }, 100);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center">
-      <section className="grid relative grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
+    <div className=" flex flex-col justify-center">
+      <section className="w-full h-full mb-8 grid grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
         {skilldata.map((skill, index) => (
           <div key={index} className={' pb-4 '}>
             <h2 className="text-2xl md:text-3xl font-extrabold text-center text-dracula-pink ">

@@ -136,7 +136,7 @@ const skilldata : skill[][]= [
             "percentage": 85
         },
         {
-            "name": "Docker (-compose)",
+            "name": "Docker",
             "percentage": 80
         },
         {

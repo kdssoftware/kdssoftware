@@ -28,7 +28,7 @@ const Navbar: NextPage<Props> = (props) => {
       flex-row md:flex-col p-4 bg-dracula-background lg:flex-row"
       >
         <div className="flex justify-center flex-col">
-          <p className="text-xl uppercase font-bold  hidden md:block">
+          <p className="text-xl uppercase font-light  hidden md:block">
             {navItems[currentIndex].slogan}
           </p>
         </div>
@@ -70,7 +70,7 @@ const Navbar: NextPage<Props> = (props) => {
                         {index + 1}
                       </h1>
                     </div>
-                    <div className="text-right text-2xl md:text-base pt-4 md:pt-0">
+                    <div className="text-right text-sm md:text-base pt-4 md:pt-0">
                       {item.title}
                     </div>
                   </a>
