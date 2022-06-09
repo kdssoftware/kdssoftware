@@ -302,6 +302,16 @@ const projects: projectI[] = [
         ],
         "github":"https://github.com/snakehead007/boardgame",
         "link":"https://boardgame.kdssoftware.com"
+    },
+    {
+        "title":"Image Upload Server",
+        "description":"Small dynamic file server for images.",
+        "technologies":[
+            "Vercel",
+            "Node.js",
+            "Docker",
+        ],
+        "github":"https://github.com/kdssoftware/image-upload-server",
     }
 ]
 
