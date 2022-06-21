@@ -20,6 +20,7 @@
 ![Javascript](https://img.shields.io/badge/Javascript-f7e018.svg?logo=javascript&logoColor=black)
 ![Typescript](https://img.shields.io/badge/Typescript-2f72bc.svg?logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-7175aa.svg?logo=php&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2d5d88.svg?logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-2a65a2.svg?logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005c83.svg?logo=mysql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-e01e23.svg?logo=java&logoColor=white)
@@ -27,6 +28,8 @@
 ![Typescript](https://img.shields.io/badge/Typescript-2f72bc.svg?logo=typescript&logoColor=white)
 ![Golang](https://img.shields.io/badge/Go-86d5e3.svg?logo=go&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-238fe0.svg?logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-a4335.svg?logo=google-cloud&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)
  ***
  <div align="center">
  <h4>My stats 📊</h4>
