@@ -13,6 +13,9 @@ const Home: NextPage = () => {
           My portfolio
         </span>
         <h1
+        style={{
+          width:"fit-content"
+        }}
           className={`antialiased font-sans uppercase text-7xl lg:text-8xl font-bold  ${
             delayOff
               ? 'text-transparent bg-clip-text bg-gradient-to-r from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark'
