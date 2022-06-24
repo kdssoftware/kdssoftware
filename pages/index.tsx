@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   }, 150);
   return (
     <>
-      <section className="w-full h-full flex justify-center flex-col pb-20">
+      <section className="w-full h-full flex justify-center flex-col pb-20 text-dracula-fire-light">
         <span className="text-lg font-semibold tracking-widest uppercase ">
           My portfolio
         </span>
