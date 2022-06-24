@@ -27,7 +27,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "UNIX shell",
-            "percentage": 75
+            "percentage": 65
         },
         {
             "name": "C#",
@@ -35,7 +35,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Golang",
-            "percentage": 70
+            "percentage": 85
         },
         {
             "name": "C++",
@@ -53,7 +53,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "CSS",
-            "percentage": 92
+            "percentage": 85
         },
         {
             "name": "Pug",
@@ -73,7 +73,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "TailwindCSS",
-            "percentage": 90
+            "percentage": 95
         },
         {
             "name": "Cypress",
@@ -99,7 +99,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "PostgreSQL",
-            "percentage": 70
+            "percentage": 75
         },
         {
             "name": "Redis",
@@ -133,11 +133,11 @@ const skilldata : skill[][]= [
     [
         {
             "name": "Git",
-            "percentage": 85
+            "percentage": 90
         },
         {
             "name": "Docker",
-            "percentage": 80
+            "percentage": 85
         },
         {
             "name": "Express.js",
@@ -165,11 +165,11 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Active Directory",
-            "percentage": 40
+            "percentage": 30
         },
         {
             "name": "Google cloud",
-            "percentage": 25
+            "percentage": 35
         },
         {
             "name": "Jest",
@@ -312,6 +312,19 @@ const projects: projectI[] = [
             "Docker",
         ],
         "github":"https://github.com/kdssoftware/image-upload-server",
+    },
+    {
+        "title":"Bricklink price filler",
+        "description":"Will search parts and compare them by price on the average 6 months sales on bricklink. And updates those prices.",
+        "technologies":[
+            "Google Cloud",
+            "Next.js",
+            "Docker",
+            "Cloud Run",
+            "Datastore"    
+        ],
+        "github":"https://github.com/kdssoftware/bricklink-price-filler",
+        "link":"https://prices.kdssoftware.com"
     }
 ]
 
@@ -324,7 +337,7 @@ const contacts : contactI[] = [
     {
         "icon": "mail",
         "name": "E-mail",
-        "link":"mailto:karel@karel.be"
+        "link":"mailto:info@kdssoftware.com"
     },
     {
         "icon":"github",
