@@ -15,9 +15,10 @@ const Skills: NextPage = () => {
 
   return (
     <div className=" flex flex-col mt-10 justify-center">
-      <section className="w-full h-full mb-8 grid grid-flow-row md:grid-cols-2 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 md:grid-flow-col">
+      <section className="w-full h-full mb-8 grid grid-flow-row md:grid-cols-2 md:grid-rows-2 xl:grid-rows-1 xl:grid-cols-4 md:grid-flow-col gap-6">
         {skilldata.map((skill, index) => (
-          <div key={index} className={' pb-4 '}>
+          <div key={index} className={'rounded-xl p-1 h-full bg-gradient-to-br from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark '}>
+            <div className=' bg-dracula-extra rounded-xl h-full pt-4 pb-4'>
             <h2 className="text-2xl md:text-3xl font-extrabold text-center text-dracula-pink ">
               {skillTypes[index]}:
             </h2>
@@ -44,6 +45,7 @@ const Skills: NextPage = () => {
                     </div>
                   </div>
                 ))}
+            </div>
             </div>
           </div>
         ))}

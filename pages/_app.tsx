@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     return () => {
       window.removeEventListener('keyup', handleKeyUp);
     };
-  }, []);
+  }, [router]);
 
   return (
     <>
@@ -66,8 +66,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         ></meta>
         <link rel="icon" href="/kds.logo.svg" />
       </Head>
-
-      <main className="flex h-screen relative top-0 w-full font-fire items-center    bg-dracula-extra text-dracula-foreground">
+      <div className='-z-20 w-screen h-screen bg-dracula-extra fixed top-0 ' style={{ backgroundImage: `url('/bg1.svg')` }} ></div>
+      <main
+        
+        className="flex h-screen relative top-0 w-full font-fire items-center text-dracula-foreground"
+      >
         <Navbar activeHref={activeHref} />
         <div className="absolute w-full top-28 bottom-0 px-5 md:px-6 lg:px-12 ">
           <Component {...pageProps} />
