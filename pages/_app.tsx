@@ -64,9 +64,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width,height=device-height, initial-scale=1, shrink-to-fit=yes"
         ></meta>
-        <link rel="icon" href="/kds.logo.svg" />
+        <link rel="icon" href="/logo.png" />
       </Head>
-      <div className='-z-20 w-screen h-screen bg-dracula-extra fixed top-0 ' style={{ backgroundImage: `url('/bg1.svg')` }} ></div>
+      <div className='-z-20 w-screen h-screen bg-dracula-extra fixed top-0 bg-cover ' style={{ backgroundImage: `url('/bg1.svg')` }} ></div>
       <main
         
         className="flex h-screen relative top-0 w-full font-fire items-center text-dracula-foreground"
