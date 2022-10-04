@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           </span>
         </p>
         <p className="">
-          Creating software since 2015.
+          Creating software since 2016.
           <br />
           Creating Full-stack websites since 2019.
           <br />
