@@ -12,7 +12,7 @@ RUN chmod -R 777 /usr/src/app
 # Production use node instead of root
 # USER node
 
-RUN npm run install
+RUN npm install
 
 COPY . /usr/src/app
 
