@@ -8,6 +8,7 @@ const Projects: NextPage = () => {
     >
       {projects.map((project) => (
         <div
+        title='1'
           className="flex justify-center h-full "
           key={project.title}
         >
