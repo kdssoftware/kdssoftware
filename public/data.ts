@@ -222,6 +222,16 @@ const navItems :navItemsI[] = [
   }
 const projects: projectI[] = [
     {
+        "title":"MDSbulk",
+        "description":"Single landing page for a customer.",
+        "technologies":[
+            "Next.js 12",
+            "Google Cloud",
+            "Tailwind CSS",
+        ],
+        "link":"https://www.mdsbulk.be"
+    },
+    {
         "title":"Web Game",
         "description":"Online multiplayer game as a hobby project",
         "technologies":[

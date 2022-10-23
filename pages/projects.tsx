@@ -4,30 +4,22 @@ import { projects } from '../public/data';
 const Projects: NextPage = () => {
   return (
     <div
-      className="
-    grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-dracula-foreground
-    "
+      className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-dracula-foreground"
     >
       {projects.map((project) => (
         <div
-          className="h-full flex justify-center "
+          className="flex justify-center h-full "
           key={project.title}
         >
           <div
-            className="rounded-lg w-full p-1
-          opacity-95 hover:opacity-100
-          bg-gradient-to-br from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark 
-          transition duration-300 hover:scale-105 shadow-md shadow-dracula-background
-          "
+            className="w-full p-1 transition duration-300 rounded-lg shadow-md opacity-95 hover:opacity-100 bg-gradient-to-br from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark hover:scale-105 shadow-dracula-background "
           >
-            <div className="flex flex-col px-4 pt-4 pb-2 rounded-lg w-full h-full opacity-100 bg-dracula-purple-dark ">
-              <div className="flex justify-start p-2 w-full">
+            <div className="flex flex-col w-full h-full px-4 pt-4 pb-2 rounded-lg opacity-100 bg-dracula-purple-dark ">
+              <div className="flex justify-start w-full p-2">
                 {project.github ? (
                   <a href={project.github} className="px-2">
                     <div
-                      className="bg-gradient-to-br w-6 h-6
-                    hover:scale-110 transition-transform ease-in-out duration-200 bg-opacity-30
-                    from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark"
+                      className="w-6 h-6 transition-transform duration-200 ease-in-out bg-white hover:scale-110 bg-opacity-90"
                       style={{
                         maskImage: "url('/icon/github.svg')",
                         WebkitMaskImage: "url('/icon/github.svg')",
@@ -44,9 +36,7 @@ const Projects: NextPage = () => {
                 {project.link ? (
                   <a href={project.link} className="px-2">
                     <div
-                      className="bg-gradient-to-br w-6 h-6
-                    hover:scale-110 transition-transform ease-in-out duration-200 bg-opacity-30
-                    from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark"
+                      className="w-6 h-6 transition-transform duration-200 ease-in-out bg-white hover:scale-110 bg-opacity-90"
                       style={{
                         maskImage: "url('/icon/link.svg')",
                         WebkitMaskImage: "url('/icon/link.svg')",
@@ -62,12 +52,11 @@ const Projects: NextPage = () => {
                 )}
               </div>
               <h2
-                className="text-2xl font-extrabold text-center py-2
-            text-transparent bg-clip-text bg-gradient-to-r from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark "
+                className="py-2 text-2xl font-extrabold text-center text-dracula-green-dark bg-clip-text"
               >
                 {project.title}
               </h2>
-              <div className="flex justify-start pt-3 pb-6 px-2 text-dracula-foreground text-lg capitalize flex-row row-span-1">
+              <div className="flex flex-row justify-start row-span-1 px-2 pt-3 pb-6 text-lg capitalize text-dracula-foreground">
                 {project.description}
               </div>
               {/* <div className="flex flex-wrap justify-center py-2 text-lg">
