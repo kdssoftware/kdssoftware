@@ -342,6 +342,7 @@ interface contactI {
     icon: string
     name: string
     link: string
+    rel?:string,
 }
 const contacts : contactI[] = [
     {
@@ -368,6 +369,12 @@ const contacts : contactI[] = [
         "icon":"dev",
         "name":"Dev.to",
         "link":"https://dev.to/kdssoftware"
+    },
+    {
+        "icon":"mastodon",
+        "name":"Mastodon",
+        "link":"https://mastodon.online/@kdssoftware",
+        "rel":"me",
     }
 ]
 

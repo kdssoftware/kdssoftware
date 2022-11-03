@@ -4,7 +4,8 @@ export default function Document() {
   // bg-dracula-extra
   return (
     <Html className="bg-dracula-extra">
-      <Head />
+      <Head>
+      </Head>
       <body>
         <Main />
         <NextScript />
