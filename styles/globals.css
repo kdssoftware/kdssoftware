@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Monda:wght@400;700&display=swap');
 
 html,
 body {
@@ -69,4 +71,19 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ff79c6;
+}
+@keyframes ring {
+  0% {
+     margin: 1rem
+  }
+  10% {
+    margin: 2rem
+  }
+  20% {
+    margin: 3rem
+ 
+  }
+}
+.animate-ring{
+  animation: ring 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }

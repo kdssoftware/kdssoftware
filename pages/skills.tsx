@@ -1,11 +1,10 @@
 import { NextPage } from 'next';
 
 import { skilldata, skillTypes } from '../public/data';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const Skills: NextPage = () => {
   let [delayOff, setDelayOff] = useState(false);
-  let [mobileCurrentShowing, setMobileCurrentShowing] = useState(0);
 
   //determine that its mobile viewpoint, if the max width is less than 768px
 

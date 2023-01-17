@@ -1,22 +1,30 @@
 import { NextPage } from 'next';
 import { useState } from 'react';
-
+import Logo from '../components/Logo';
+let once = false
 const Home: NextPage = () => {
-  let [delayOff, setDelayOff] = useState(false);
+  let [delayOff, setDelayOff] = useState(once);
   setInterval(() => {
+    once = true
     setDelayOff(true);
-  }, 150);
+  }, 1000);
   return (
     <>
-      <section className="w-full h-full flex justify-center flex-col pb-20 text-dracula-fire-light">
+      <section className={
+        `w-full h-full flex justify-center flex-col pb-20 text-dracula-fire-light delay-100 ease-in-out transition-opacity
+         fixed
+        ${
+          delayOff ? 'opacity-100' 
+          : 'opacity-0'
+        }`
+         
+      } 
+      >
         <span className="text-lg font-semibold tracking-widest uppercase ">
           My portfolio
         </span>
         <h1
-        style={{
-          width:"fit-content"
-        }}
-          className={`antialiased font-sans uppercase text-7xl lg:text-8xl font-bold  ${
+          className={`antialiased font-sans uppercase text-7xl lg:text-8xl font-bold w-fit ${
             delayOff
               ? 'text-transparent bg-clip-text bg-gradient-to-r from-dracula-fire-light via-dracula-fire-middle to-dracula-fire-dark'
               : 'text-dracula-foreground'
@@ -37,19 +45,18 @@ const Home: NextPage = () => {
             </a>
           </span>
         </p>
-        <p className="">
+        <p>
           Creating software since 2016.
           <br />
           Creating Full-stack websites since 2019.
           <br />
-          Learning{' '}
-          <span className="text-lg font-bold text-dracula-green">
+          Learning
+          <span className="text-lg font-bold text-dracula-green mx-2">
             new technologies
-          </span>{' '}
+          </span>
           on the way.
-        </p>
-      </section>
-      <footer className="fixed bottom-0 right-0 p-6 text-lg lg:p-16">
+        </p> 
+        <footer className="fixed bottom-0 right-0 p-6 text-lg lg:p-16">
         <p className="mb-1 font-thin">Author</p>
         <p>
           <span className="text-2xl font-bold text-dracula-green-dark font-">
@@ -59,6 +66,13 @@ const Home: NextPage = () => {
           </span>
         </p>
       </footer>
+      </section>
+      <div className={`fixed top-1/2 left-1/2 delay-100 transition-all ${
+        delayOff && "opacity-0"
+      }`} >
+        <Logo />
+      </div>
+     
     </>
   );
 };
