@@ -11,7 +11,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "PHP",
-            "percentage": 90
+            "percentage": 70
         },
         {
             "name": "TypeScript",
@@ -65,7 +65,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "Next.js",
-            "percentage": 85
+            "percentage": 90
         },
         {
             "name": "Redux.js",
@@ -107,7 +107,7 @@ const skilldata : skill[][]= [
         },
         {
             "name": "FaunaDB",
-            "percentage": 50
+            "percentage": 40
         },
         {
             "name":"NGinx",
@@ -257,7 +257,6 @@ const projects: projectI[] = [
             "mongoDB",
         ],
         "github":"https://github.com/fyrebrick",
-        "link":"https://my.fyrebrick.com",
     },
     {
         "title":"Picturehouse",
@@ -272,7 +271,6 @@ const projects: projectI[] = [
             "Express.js",
             "MongoDB",
         ],
-        "link":"https://picturehouse.be",
         "github":"https://github.com/snakehead007/picturehouse",
     },
     {
