@@ -30,6 +30,9 @@
 ![Docker](https://img.shields.io/badge/Docker-238fe0.svg?logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-a4335.svg?logo=google-cloud&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-030381.svg?logo=lua&logoColor=white)
+![NeoVim](https://img.shields.io/badge/NeoVim-57a241.svg?logo=neovim&logoColor=white)
+ 
  ***
  <div align="center">
  <h4>My stats 📊</h4>
