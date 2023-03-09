@@ -43,7 +43,7 @@
 </div>
 <div align="center">
  
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&theme=dracula&langs_count=8&hide=css,html,pug" height="200px"/>
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&theme=dracula&langs_count=8&hide=css,html,pug,php,scss" height="200px"/>
  <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&theme=dracula&hide=stars_private=true" height="200px" />
  <br />
    <img src="http://github-readme-streak-stats.herokuapp.com/?user=kdssoftware&theme=dracula&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="200px"/>
