@@ -2,7 +2,7 @@
 <h1>Welcome, </h1>
 
  📋 Im a software engineer [@Guardsquare](https://guardsquare.com) working with <b>Typescript</b> and <b>Go</b><br>
- 🌳 In my free time, I create full-stack apps and maintain my Plex servers. <br>
+ 🌳 In my free time, I tweak my NeoVim config and maintain my Plex servers. <br>
  🌐 My portfolio https://kdssoftware.com
  ***
  
