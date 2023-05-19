@@ -56,6 +56,20 @@ const Home: NextPage = () => {
           </span>
           on the way.
         </p> 
+        <p className="mt-5">
+           <a href="https://discord.gg/JwQtNdN5" className='group
+            transition-all duration-500 ease-in-out
+           '> 
+            <img className="inline-block h-12 w-12 p-2 bg-dracula-green rounded-full
+            group-hover:bg-gradient-to-br group-hover:from-dracula-fire-light group-hover:via-dracula-fire-middle group-hover:to-dracula-fire-dark 
+            transition-all duration-500 ease-in-out
+            " src="/icon/discord.svg" alt="discord" />
+            <span className="text-lg font-bold text-dracula-green mx-2">
+                Available for hire, join my Discord.
+            </span>
+            </a>
+        </p>
+
         <footer className="fixed bottom-0 right-0 p-6 text-lg lg:p-16">
         <p className="mb-1 font-thin">Author</p>
         <p>

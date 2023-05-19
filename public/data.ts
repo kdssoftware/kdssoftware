@@ -375,6 +375,12 @@ const contacts : contactI[] = [
         "name":"Mastodon",
         "link":"https://mastodon.online/@kdssoftware",
         "rel":"me",
+    },
+    {
+        "icon":"discord",
+        "name":"Discord",
+        "link":"https://discord.gg/JwQtNdN5",
+        "rel":"me",
     }
 ]
 
