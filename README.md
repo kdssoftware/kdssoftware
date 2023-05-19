@@ -2,7 +2,7 @@
 <h1>Welcome, </h1>
 
  📋 Im a software engineer [@Guardsquare](https://guardsquare.com) working with <b>Typescript</b> and <b>Go</b><br>
- 🌳 In my free time, I create full-stack apps and maintain my Plex servers. <br>
+ 🌳 In my free time, I tweak my NeoVim config and maintain my Plex servers. <br>
  🌐 My portfolio https://kdssoftware.com
  ***
  
@@ -30,6 +30,9 @@
 ![Docker](https://img.shields.io/badge/Docker-238fe0.svg?logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-a4335.svg?logo=google-cloud&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-030381.svg?logo=lua&logoColor=white)
+![NeoVim](https://img.shields.io/badge/NeoVim-57a241.svg?logo=neovim&logoColor=white)
+ 
  ***
  <div align="center">
  <h4>My stats 📊</h4>
@@ -39,13 +42,16 @@
  
 </div>
 <div align="center">
- 
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&theme=dracula&langs_count=8&hide=css,html,pug" height="200px"/>
- <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&theme=dracula&hide=stars_private=true" height="200px" />
- <br />
-   <img src="http://github-readme-streak-stats.herokuapp.com/?user=kdssoftware&theme=dracula&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="200px"/>
+ <br /> &nbsp; <br />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&langs_count=8&hide=css,html,pug,php,scss" height="200px"/>
  &nbsp;
- <br />
+ <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&hide=stars_private=true" height="200px" />
+ <br /> &nbsp; <br />
+   <img src="http://github-readme-streak-stats.herokuapp.com/?user=kdssoftware&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="200px"/>
+   &nbsp;
+    <img src="https://leetcode.card.workers.dev/?username=kdssoftware" height="200px" />
+<br /> &nbsp; <br />
  <a href="https://www.buymeacoffee.com/kdssoftware" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 </div>
 
