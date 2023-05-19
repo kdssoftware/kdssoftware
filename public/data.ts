@@ -47,11 +47,11 @@ const skilldata: skill[][] = [
     },
     {
       name: "lua",
-      percentage: 30,
+      percentage: 40,
     },
     {
       name: "vim",
-      percentage: 10,
+      percentage: 15,
     },
   ],
   [
@@ -87,6 +87,10 @@ const skilldata: skill[][] = [
       name: "Cypress",
       percentage: 5,
     },
+    { 
+        name: "playwright",
+        percentage: 20,
+    }
   ],
   [
     {
@@ -135,7 +139,7 @@ const skilldata: skill[][] = [
     },
     {
       name: "Firebase",
-      percentage: 5,
+      percentage: 40,
     },
   ],
   [
@@ -182,6 +186,10 @@ const skilldata: skill[][] = [
     {
       name: "Jest",
       percentage: 20,
+    },
+    { 
+        name:"NextAuth.js",
+        percentage: 30,
     },
   ],
 ];
