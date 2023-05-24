@@ -65,7 +65,7 @@ const Home: NextPage = () => {
             transition-all duration-500 ease-in-out
             " src="/icon/discord.svg" alt="discord" />
             <span className="text-lg font-bold text-dracula-green mx-2">
-                Available for hire, join my Discord.
+                For questions or conversation, join my discord server.
             </span>
             </a>
         </p>
