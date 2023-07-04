@@ -1,8 +1,7 @@
 <div align="center">
 <h1>Welcome, </h1>
 
- 📋 Im a software engineer [@Guardsquare](https://guardsquare.com) working with <b>Typescript</b> and <b>Go</b><br>
- 🌳 In my free time, I tweak my NeoVim config and maintain my Plex servers. <br>
+ 🌳 I tweak my NeoVim config and maintain my Plex servers, in my free time,  <br>
  🌐 My portfolio https://kdssoftware.com
  ***
  
