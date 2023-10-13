@@ -1,8 +1,8 @@
 <div align="center">
 <h1>Welcome, </h1>
 
- 🌳 I tweak my NeoVim config and maintain my Plex servers, in my free time,  <br>
- 🌐 My portfolio https://kdssoftware.com
+ 🌳 I tweak my NeoVim config and maintain my Plex server, in my free time.  <br>
+ 🌐 My portfolio https://www.kdssoftware.com
  ***
  
  [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
