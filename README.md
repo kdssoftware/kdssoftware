@@ -2,7 +2,7 @@
 <h1>Welcome, </h1>
 
  🌳 I tweak my NeoVim config and maintain my Plex server, in my free time.  <br>
- 🌐 My portfolio https://www.kdssoftware.com
+ 🌐 My portfolio [https://www.kdssoftware.com](https://kdssoftware.com/)
  ***
  
  [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
