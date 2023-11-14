@@ -361,6 +361,11 @@ const contacts : contactI[] = [
         "link":"mailto:info@kdssoftware.com"
     },
     {
+        "icon":"twitter",
+        "name":"Twitter",
+        "link":"https://twitter.com/kdssoftware"
+    },
+    {
         "icon":"github",
         "name":"GitHub",
         "link":"https://github.com/kdssoftware"
@@ -369,11 +374,6 @@ const contacts : contactI[] = [
         "icon":"linkedin",
         "name":"LinkedIn",
         "link":"https://www.linkedin.com/in/karel-de-smet-7a18099/"
-    },
-    {
-        "icon":"twitter",
-        "name":"Twitter",
-        "link":"https://twitter.com/kdssoftware"
     },
     {
         "icon":"dev",
@@ -385,6 +385,21 @@ const contacts : contactI[] = [
         "name":"Mastodon",
         "link":"https://mastodon.online/@kdssoftware",
         "rel":"me",
+    },
+    {
+        "icon":"last.fm",
+        "name":"Last.fm",
+        "link":"https://www.last.fm/user/kdssoftware",
+    },
+    {
+        "icon":"spotify",
+        "name":"Spotify",
+        "link":"https://open.spotify.com/user/qluprex",
+    },
+    {
+        "icon":"stats.fm",
+        "name":"Stats.fm",
+        "link":"https://stats.fm/kdssoftware",
     },
     {
         "icon":"discord",
