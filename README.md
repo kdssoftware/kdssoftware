@@ -42,7 +42,7 @@
 </div>
 <div align="center">
  <br /> &nbsp; <br />
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&langs_count=8&hide=css,html,pug,php,scss" height="200px"/>
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kdssoftware&show_icons=true&layout=compact&langs_count=8&hide=css,html,pug,php,scss,javascript,java,c%23,autohotkey,smalltalk" height="200px"/>
  &nbsp;
  <img src="https://github-readme-stats.vercel.app/api?username=kdssoftware&show_icons=true&hide=stars_private=true" height="200px" />
  <br /> &nbsp; <br />
