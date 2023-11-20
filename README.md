@@ -3,14 +3,17 @@
 
  🌳 I tweak my NeoVim config and maintain my Plex server, in my free time.  <br>
  🌐 My portfolio [https://www.kdssoftware.com](https://kdssoftware.com/)
+<br />
  ***
  
  [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
- [![#standWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/e370cbde3369f18314456290ea50e6819f0f01f0/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine)
+<br />
+
+![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=kdssoftware&count=1)
 
 <div align="center">
  </div>
- <h4>My technologies 🤖</h4>
+ <h3>My technologies 🤖</h3>
 
 ![react](https://img.shields.io/badge/React.js-77d4f2?logo=react&logoColor=black)
 ![NodeJS](https://img.shields.io/badge/Node.js-4f9640?logo=node.js&logoColor=white)
@@ -34,7 +37,7 @@
  
  ***
  <div align="center">
- <h4>My stats 📊</h4>
+ <h3>My stats 📊</h3>
  </div>
  
  [![](https://www.codewars.com/users/kdssoftware/badges/large)](https://www.codewars.com/users/kdssoftware)
