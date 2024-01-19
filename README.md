@@ -9,7 +9,7 @@
  [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
 <br />
 
-![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=kdssoftware&count=1)
+[![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=kdssoftware&count=1)](https://www.last.fm/user/kdssoftware)
 
 <div align="center">
  </div>
