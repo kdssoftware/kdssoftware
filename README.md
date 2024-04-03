@@ -7,10 +7,10 @@
  ***
  
  [![](https://komarev.com/ghpvc/?username=kdssoftware)](https://github.com/kdssoftware)
-<br />
+<!-- <br />
 
 [![My scrobbles](https://lastfm-recently-played.vercel.app/api?user=kdssoftware&count=1)](https://www.last.fm/user/kdssoftware)
-
+-->
 <div align="center">
  </div>
  <h3>My technologies 🤖</h3>
@@ -34,6 +34,7 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-030381.svg?logo=lua&logoColor=white)
 ![NeoVim](https://img.shields.io/badge/NeoVim-57a241.svg?logo=neovim&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-000000.svg?logo=Prisma&logoColor=white)
  
  ***
  <div align="center">
@@ -56,4 +57,3 @@
  <a href="https://www.buymeacoffee.com/kdssoftware" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 </div>
-
